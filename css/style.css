@@ -1,6 +1,47 @@
-header {
+body {
+    display: block;
+}
+.header {
     display: flex;
-    width: 1440px;
+    width: 100%;
     height: 70px;
     background-color: #fff;
+    justify-content: space-around;
+}
+.text_box {
+    flex-direction: column;
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: Poppins;
+    font-style: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+.text_one {
+    display: inline-block;
+    margin-right: 103px;
+}
+.text_two {
+    margin-right: 107px;
+}
+
+.title {
+    display: inline-block;
+ margin-top: 18px;
+ margin-bottom: 20px;
+ margin-left: 120px;
+
+}
+.link {
+    display: flex;
+    align-items: center;
+    margin-left: 114px;
+} 
+ .instagram_link {
+    flex-wrap: nowrap;
+    flex-flow: row;
+    margin-right: 20px;
 }

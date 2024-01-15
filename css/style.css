@@ -317,3 +317,115 @@ body {
 .section_two img {
   margin-top: -70px;
 }
+.simples{
+  display: block;
+
+  width: 1364px;
+  text-align: center;
+  padding-top: 142px;
+}
+.contecomagente{
+  color: var(--Roxo, #7000FF);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.32px;
+text-transform: uppercase;
+text-decoration: none;
+margin-left: -600px;
+}
+.simples_promo{
+  color: var(--Roxo-escuro, #2B0955);
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.72px;
+margin-top: -40px;
+text-align: left;
+margin-left: 300px;
+}
+.simples_text{
+  color: var(--Cinza-escuro, #363636);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.32px;
+text-align: left;
+margin-left: 300px;
+margin-top: -40px;
+}
+.simples_text b {
+  color: var(--Roxo, #7000FF);
+  font-weight: 700;
+
+}
+.simples_btn{
+ width: 186px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--amarelo, #fbc508);
+  text-align: center;
+  padding-top: 5px;
+  color: var(--Roxo-escuro, #2b0955);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  margin-top: 20px;
+  margin-left: -580px;
+}
+.simples_btn:hover{
+  background-color: darkorange;
+  transition: 0.7s;
+}
+.simples_men{
+  position: relative;
+  margin-left: 400px;
+  margin-top: -300px;
+}
+.simples_burger1{
+  position: relative;
+  margin-top: -390px;
+  margin-left: 190px;
+}
+.simples_gradient{
+  position: relative;
+  width: 147px;
+height: 209px;
+flex-shrink: 0;
+background: linear-gradient(180deg, rgba(24, 75, 255, 0.00) 0%, #174AFF 100%);
+filter: blur(100px);
+margin-left: 870px;
+margin-top: -200px;
+}
+.simples_gradient2 {
+  position: relative;
+  width: 307px;
+height: 307px;
+flex-shrink: 0;
+border-radius: 307px;
+background: linear-gradient(180deg, rgba(0, 194, 255, 0.00) 0%, #FF29C3 100%);
+filter: blur(100px);
+margin-left: 840px;
+margin-top: -320px;
+}
+.simples_burger2{
+  margin-left: 880px;
+  margin-top: -150px;
+}
+.simples_burger3 {
+  margin-left: 1050px;
+}
+.simples_burger4{
+  margin-left: 1150px;
+  margin-top: -390px;
+}

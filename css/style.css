@@ -192,3 +192,128 @@ body {
   background-color: darkorange;
   transition: 0.7s;
 }
+
+.ben_title {
+  color: var(--Roxo-escuro, #2b0955);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  margin-top: 120px;
+}
+.ben_stick {
+  display: block;
+  width: 97px;
+  height: 3px;
+  background: #fbc508;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+.ben_text {
+  color: var(--Cinza-escuro, #363636);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+  margin-top: 16px;
+}
+.ben_menu {
+  width: 959px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.section_one_name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.section_two_name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -25px;
+}
+.section_three_name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: -10px;
+}
+.section_one_text {
+  color: var(--Cinza-escuro, #363636);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+.section_two_text {
+  color: var(--Cinza-escuro, #363636);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+.section_three_text {
+  color: var(--Cinza-escuro, #363636);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+.section_one_btn {
+  text-align: right;
+}
+.section_two_btn {
+  text-align: right;
+}
+.section_three_btn {
+  text-align: right;
+}
+.section_btn {
+  border: none;
+
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0;
+  border-radius: 100%;
+  background-color: #7000ff;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.section_btn:hover {
+  background-color: darkorange;
+  transition: 0.7s;
+}
+.section_two img {
+  margin-top: -70px;
+}

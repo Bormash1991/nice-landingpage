@@ -1,47 +1,194 @@
 body {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .header {
-    display: flex;
-    width: 100%;
-    height: 70px;
-    background-color: #fff;
-    justify-content: space-around;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  justify-content: space-around;
 }
 .text_box {
-    flex-direction: column;
-    display: flex;
-    flex-flow: row;
-    text-align: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    font-family: Poppins;
-    font-style: 14px;
-    font-weight: 400;
-    line-height: normal;
+  flex-direction: column;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  margin-top: 24px;
+  /* margin-bottom: 24px; */
+  font-family: Poppins;
+  font-style: 14px;
+  font-weight: 400;
+  line-height: normal;
 }
 .text_one {
-    display: inline-block;
-    margin-right: 103px;
+  display: inline-block;
+  margin-right: 103px;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+
+  /* links-menu */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .text_two {
-    margin-right: 107px;
+  margin-right: 107px;
+  outline: none;
+  text-decoration: none;
+  color: #000;
+
+  /* links-menu */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text_three {
+  text-decoration: none;
+  color: #000;
+
+  /* links-menu */
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .title {
-    display: inline-block;
- margin-top: 18px;
- margin-bottom: 20px;
- margin-left: 120px;
-
+  display: inline-block;
+  margin-top: 18px;
+  /* margin-bottom: 20px; */
+  margin-left: 120px;
 }
 .link {
-    display: flex;
-    align-items: center;
-    margin-left: 114px;
-} 
- .instagram_link {
-    flex-wrap: nowrap;
-    flex-flow: row;
-    margin-right: 20px;
+  display: flex;
+  align-items: center;
+  margin-left: 114px;
+}
+.instagram_link {
+  flex-wrap: nowrap;
+  flex-flow: row;
+  margin-right: 20px;
+}
+
+.slogan {
+  height: 460px;
+  background: var(--Roxo-escuro, #2b0955);
+}
+.slogan_promo {
+  display: block;
+  color: var(--Branco, #fff);
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 137.5%;
+  padding-top: 20px;
+  margin-left: 244px;
+}
+.slogan_text {
+  color: var(--Branco, #fff);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  margin-left: 243px;
+  margin-top: 11px;
+}
+.slogan_text b {
+  color: #fbc508;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+.simple-radial {
+  position: relative;
+  width: 317px;
+  height: 317px;
+  border-radius: 317px;
+  background: linear-gradient(180deg, rgba(0, 194, 255, 0) 0%, #ff29c3 100%);
+  filter: blur(100px);
+  margin-top: -325px;
+  margin-left: 952px;
+}
+.rectangle {
+  width: 152.404px;
+  height: 215.651px;
+  flex-shrink: 0;
+  background: linear-gradient(180deg, rgba(24, 75, 255, 0) 0%, #174aff 100%);
+  filter: blur(100px);
+  margin-top: -215px;
+  margin-left: 1052px;
+}
+.slogan_img {
+  position: relative;
+  margin-top: -395px;
+  margin-left: 796px;
+  width: 599px;
+  height: 559px;
+  flex-shrink: 0;
+}
+.slogan_img_2 {
+  position: relative;
+  margin-top: -500px;
+  margin-left: 890px;
+}
+.slogan_btn1 {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 244px;
+}
+.button_sl_1 {
+  width: 186px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--amarelo, #fbc508);
+  text-align: center;
+  padding-top: 5px;
+  color: var(--Roxo-escuro, #2b0955);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+}
+.button_sl_1:hover {
+  background-color: darkorange;
+  transition: 0.7s;
+}
+.slogan_btn2 {
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 446px;
+}
+.button_sl_2 {
+  width: 200px;
+  height: 46px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  padding-top: 5px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.button_sl_2:hover {
+  background-color: darkorange;
+  transition: 0.7s;
 }

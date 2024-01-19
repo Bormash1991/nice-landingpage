@@ -468,6 +468,7 @@ margin-right: auto;
 }
 .ainda_chapter_two{
   margin-right: 260px;
+
 }
 .ainda_text{
   margin-top: 80px;
@@ -546,4 +547,141 @@ line-height: normal;
 .ainda_chapter_two_btn{
   text-align: right;
   margin-bottom: 36px;
+}
+.ainda_chapter_two input{
+  padding: 0 10px;
+}
+.footer{
+  background: var(--Roxo-escuro, #2B0955);
+   width: 100%;
+}
+.footer_top{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+.footer_logo{
+margin-left: 60px;
+margin-top: -10px;
+}
+.footer_logo .logo_text{
+  display: inline-block;
+  color: #FFF;
+font-family: Poppins;
+font-size: 40.632px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.footer_link_text{
+  display: flex;
+  align-items: center;
+  margin-left: 550px;
+  
+
+
+}
+.footer_link_text .text_one{
+  color: #FFF;
+
+/* links-menu */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer_link_text .text_two{
+  color: #FFF;
+}
+.footer_link_text .text_three{
+  color: #FFF;
+}
+.footer_link_logo{
+  display: inline-flex;
+  margin-right: 20px;
+  margin-left: 200px;
+  margin-top: 35px;
+}
+.footer_down{
+  display: flex;
+  width: 100%;
+}
+
+.footer_down_text a{
+  position: relative;
+outline: none;
+  text-decoration: none;
+  /* links-menu */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 130px;
+color: #FFF;
+margin-right: 30px;
+margin-top: 20px;
+text-align: center;
+
+}
+.footer_down_text_pla{
+  color: #FFF;
+
+/* links-menu */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 0 5px;
+width: 243px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 6px 0px 0px 6px;
+border: 1px solid #FFF;
+background-color: rgba(0, 0, 0, 0);
+}
+.footer_down_text_btn{
+  width: 122px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 0px 6px 6px 0px;
+background: var(--Linha-assunto-dark-mode, #FFF);
+color: var(--Roxo-escuro, #2B0955);
+
+/* links-menu */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border: none;
+}
+.footer_down_stick{
+  position: relative;
+  width: 1197px;
+height: 1px;
+background: #AE97CB;
+margin-top: 100px;
+margin-left: -500px;
+}
+.footer_down_stick_2{
+  position: relative;
+  margin-top: 110px;
+  text-align: center;
+  color: #FFF;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: -700px;
+margin-bottom: 30px;
+}
+
+.footer_down_text_btn:hover {
+  background-color: darkorange;
+  transition: 0.7s;
 }
